@@ -1,8 +1,11 @@
-# Accordian
+# Accoredian Control and App
 
-Version: 0.1
+This React sample app contains an accessible Accordian Control and is based on recommendations from
+https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-faq/. 
 
-RELEASE NOTES:
-This project contains a sample Accordian Project that I wrote. It follows the design pattern from https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-faq/
+It is inside of an application for easier UI testing.
 
-The project was done under a time crunch and I did not have my environment fully set up so UI tests are not working at the moment, but are included.
+## NOTE
+
+The content for this accordian controller is hardcoded, but should be fed in using props and come from a file or database. 
+Obviously hardcoding the questions and answers inside the control does not work.
